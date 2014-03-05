@@ -1,0 +1,170 @@
+<!DOCYTIPE>
+<html>
+<head>FORMULARIO</head>
+<title> PRACTICA 3 </title> </br> </br> </br>
+<style>
+body{color: Cyan; background-color: black;}
+</style>
+<body>
+
+<form>
+<fieldset>
+<form> <label> Nombre  </label> </br>
+<textarea name ="Nombre" rows="1" cols="20">
+</textarea>
+</form> </br> 
+
+<form> <label> Apellido Paterno  </label> </br>
+<textarea name ="ApellidoP" rows="1" cols="20">
+</textarea>
+</form> </br> 
+
+<form> <label> Apellido Materno  </label> </br>
+<textarea name ="ApellidoM" rows="1" cols="20">
+</textarea>
+</form> </br> 
+
+<label> Fecha De Nacimiento  </label>
+<form>
+<label> Dia </label>
+<select name= "Dia" >
+<option value ="1"> 1 </option>
+<option value ="2"> 2 </option>
+<option value ="3"> 3 </option>
+<option value ="4"> 4 </option>
+<option value ="5"> 5 </option>
+<option value ="6"> 6 </option>
+<option value ="7"> 7 </option>
+<option value ="8"> 8 </option>
+<option value ="9"> 9 </option>
+<option value ="10"> 10 </option>
+<option value ="11"> 11 </option>
+<option value ="12"> 12 </option>
+<option value ="13"> 13 </option>
+<option value ="14"> 14 </option>
+<option value ="15"> 15 </option>
+<option value ="16"> 16 </option>
+<option value ="17"> 17 </option>
+<option value ="18"> 18</option>
+<option value ="19"> 19 </option>
+<option value ="20"> 20 </option>
+<option value ="21"> 21 </option>
+<option value ="22"> 22 </option>
+<option value ="23"> 23 </option>
+<option value ="24"> 24 </option>
+<option value ="25"> 25 </option>
+<option value ="26"> 26 </option>
+<option value ="27"> 27 </option>
+<option value ="28"> 28 </option>
+<option value ="29"> 29 </option>
+<option value ="30"> 30 </option>
+<option value ="31"> 31 </option>
+</select>
+
+ &nbsp;&nbsp;&nbsp; <label> Mes </label>
+<select name= "Mes" >
+<option value ="1"> Enero </option>
+<option value ="2"> Febrero </option>
+<option value ="3"> Marzo </option>
+<option value ="4"> Abril </option>
+<option value ="5"> Mayo </option>
+<option value ="6"> Junio </option>
+<option value ="7"> Julio </option>
+<option value ="8"> Agosto </option>
+<option value ="9"> Septiembre </option>
+<option value ="10"> Octubre </option>
+<option value ="11"> Noviembre </option>
+<option value ="12"> Diciembre </option>
+</select>
+
+ &nbsp;&nbsp;&nbsp; <label> Ano </label>
+<select name= "Mes" >
+<option value ="1994"> 1994 </option>
+<option value ="1995"> 1995 </option>
+<option value ="1996"> 1996 </option>
+<option value ="1997"> 1997 </option>
+<option value ="1998"> 1998 </option>
+<option value ="1999"> 1999 </option>
+<option value ="2000"> 2000 </option>
+<option value ="2001"> 2001 </option>
+<option value ="2002"> 2002 </option>
+<option value ="2003"> 2003 </option>
+</select>
+</form></br></br>
+
+<form>
+<label> Sexo  </label> </br>
+<input type ="radio"name="Sexo" value ="1"
+id="sexo1"
+<label for = "sexo1" > Masculino </label><br/>
+<input type="radio" name="Sexo" value = "2"
+id="sexo2">
+<label for ="sexo2"> Femenino </label><br/>
+</form></br></br>
+
+Foto:<input type="file" name ="img"> </br></br></br>
+ </fieldset>
+</form>
+
+<form>
+<fieldset>
+<form> <label> Codigo  </label> </br>
+<textarea name ="Codigo" rows="1" cols="20">
+</textarea>
+</form> </br> 
+
+<form> <label> Password  </label> </br>
+<textarea name ="Pass" rows="1" cols="20">
+</textarea>
+</form> </br> 
+</fieldset>
+</form>
+
+<form>
+ <fieldset>
+<form> <label> Domicilio  </label> </br>
+<textarea name ="Domicilio" rows="1" cols="20">
+</textarea>
+</form> </br> 
+
+<form> <label> Colonia </label> </br>
+<textarea name ="Colonia" rows="1" cols="20">
+</textarea>
+</form> </br> 
+
+<form> <label> Telefono </label> </br>
+<textarea name ="Tel" rows="1" cols="20">
+</textarea>
+</form>
+  </fieldset>
+</form>
+
+<form>
+<label> Interes En: </label> </br>
+<input type ="checkbox"name="mureta" value ="1"
+id="materia 1"
+<label for = "materia1" > Deportes </label><br/>
+<input type="checkbox" name="materia" value = "2"
+id="materia 2">
+<label for ="materia2"> Ciencia </label><br/>
+<input type ="checkbox" name=" materia" value="3"
+id = "materia3" 
+<label for "materia 3" > Educacion </label><br/>
+<input type ="checkbox" name=" materia" value="3"
+id = "materia3" checked = "cheked" >
+<label for "materia 3" > Musica </label><br/>
+<input type ="checkbox" name=" materia" value="3"
+id = "materia3" 
+<label for "materia 3" > Otro </label>
+</form>
+
+<input type ="submit" value ="Enviar"
+onclick ="alert('Enviado');">
+<input type ="button" value ="Canselar"
+onclick ="alert('Canselado');">
+
+
+</body>
+
+
+</html>
